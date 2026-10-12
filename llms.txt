@@ -26,7 +26,7 @@
 我们建设的是静态网站：没有数据库，没有后台登录。对一家小店而言，这意味着三点：打开快，手机上无须等待；可被攻击之处很少；托管几乎不产生费用。代价是不适合会员系统与大量商品的在线商城，这类需求会直接建议使用电商平台。 我们长期维护一批同类网站，表单、搜索设置与双语结构都是成熟做法，改动可以沿用既有结构。
 
 ## 一个常见情形：不知道域名在谁手里
-以下是一个常见情形，并非某一位当事人的经历。 一家开了十年的家常菜馆，几年前请朋友的朋友建了网站。后来菜单换了、营业时间改了、疫情后周一不再营业，网站却一直未动。老板想要修改，才发现建站的人早已联系不上，域名注册在对方的邮箱下，托管账号也在他手中。手机上打开网站要等好几秒，不少客人等不及，直接去看 Google 地图，而地图上的营业时间又是另一个版本。 这家店需要的是三件事：网站与账号在自己名下；营业时间这类小事，说一声便有人修改；客人在手机与 Google 上看到的信息一致。 网站最常见的问题，是建成之后无人维护、账号不在自己手中。
+以下是一个常见情形，并非某一位当事人的经历。 （示意情形）一家开了十年的家常菜馆，几年前请朋友的朋友建了网站。后来菜单换了、营业时间改了、疫情后周一不再营业，网站却一直未动。老板想要修改，才发现建站的人早已联系不上，域名注册在对方的邮箱下，托管账号也在他手中。手机上打开网站要等好几秒，不少客人等不及，直接去看 Google 地图，而地图上的营业时间又是另一个版本。 这家店需要的是三件事：网站与账号在自己名下；营业时间这类小事，说一声便有人修改；客人在手机与 Google 上看到的信息一致。 网站最常见的问题，是建成之后无人维护、账号不在自己手中。
 
 ## 店主常说的几件事
 以下几段取自公开论坛中小商家的原话，链接附后。个案经过以原帖为准。 域名要靠别人配合才能转出。 一位店主的托管商停了网站，「unfortunately I need his cooperation to switch my domain over which he verbally said he would provide.」她担心对方借此为难（r/smallbusiness）。一位建站者也写道，几乎每次接手旧站，都要等一两周，店主才查明域名在哪个账号下、找回密码（r/webdev）。 域名过期，被人买走。 「lost said domain, had to rebuy for over 2x the original cost.」（r/smallbusiness）。另有店主收到冒充注册商的续费信，付了 265 元，域名并未续期（r/smallbusiness）。 小改动也做不了。 「it’s been really difficult for us to make even small updates because we’re not web designers ourselves.」（r/Wordpress）；另一位店主当初用的建站工具已停止服务，「I can't update my website」（r/smallbusiness）。 按月付费，不清楚买到了什么。 「A guy built my website for free and charges $60/month for hosting.」（r/smallbusiness）；有人打开一个付了维护费的网站，发现积压着大量待更新的插件与早已忘记的旧页面（r/smallbusiness）。 网站打不开，提示不安全。 「My website won't load and I keep getting a message saying it is not safe.」（r/smallbusiness）；也有店主问，怎样才知道网站证书何时到期（r/smallbusiness）。 搬了店，怕丢掉评价。 「I don
