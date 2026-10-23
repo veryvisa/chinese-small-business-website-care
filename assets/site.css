@@ -59,6 +59,15 @@ img,svg{max-width:100%}
 .sec:nth-of-type(even) .card{background:var(--bg)}
 .card h3{margin:0 0 6px;font-size:17px}
 .card p,.card li{font-size:15.5px;margin:6px 0}
+.kcards{counter-reset:none}
+.kcard{display:flex;flex-direction:column;gap:2px;scroll-margin-top:80px}
+.kcard .kc-no{margin:0;font-size:12px;letter-spacing:.18em;color:var(--accent);font-weight:700}
+.kcard .kc-body p{margin:4px 0 8px}
+.kc-guide{margin:6px 0 0;padding:10px 0 0;border-top:1px solid var(--line);display:grid;gap:6px}
+.kc-guide div{display:grid;grid-template-columns:3.6em 1fr;gap:8px;align-items:baseline}
+.kc-guide dt{font-size:12.5px;font-weight:700;color:var(--accent);letter-spacing:.06em}
+.kc-guide dd{margin:0;font-size:14.5px;line-height:1.6}
+.kc-take{margin:10px 0 0!important;padding:8px 10px;background:var(--soft);border-radius:8px;font-size:14.5px!important;font-weight:600}
 .steps{list-style:none;counter-reset:s;padding:0!important;display:grid;gap:12px}
 .steps li{counter-increment:s;position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px 14px 60px;margin:0}
 .steps li::before{content:counter(s);position:absolute;left:16px;top:14px;width:30px;height:30px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-weight:700;display:flex;align-items:center;justify-content:center}
