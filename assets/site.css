@@ -122,6 +122,14 @@ img,svg{max-width:100%}
 
 @media (min-width:760px){.form{padding:28px}.sec{padding:64px 0}}
 @media (max-width:480px){.btn-ghost{margin:10px 0 0}.vv-site{display:none}}
+/* 手机首屏收紧（copy-audit-1120）：三条要点改成勾选短列表、去掉卡片框，主按钮落在 390×844 首屏内 */
+@media (max-width:600px){.hero .wrap{padding-top:28px;padding-bottom:32px}.hero h1{margin-bottom:10px}.hero .sub{margin-bottom:16px}
+.hero-points{gap:6px;margin-bottom:20px}.hero-points li{background:none;border:0;border-radius:0;padding:0 0 0 1.35em;position:relative;font-size:14.5px}
+.hero-points li::before{content:"✓";position:absolute;left:0;top:0;opacity:.85}}
+/* 首屏里的音频播放器排到按钮与日期之后（各宽度）：读者先看到用途与主按钮 */
+.hero .wrap{display:flex;flex-wrap:wrap;align-items:center}.hero .wrap>*{flex:0 0 100%}
+.hero .wrap>.kicker,.hero .wrap>.btn{flex:0 0 auto}.hero .wrap>.kicker{margin-right:100%}
+.hero .wrap>.hero-points{max-width:none}.hero .wrap>.asof{order:2}.hero .wrap>.site-audio{order:3}
 @media print{.vv-top,.toc,.contact,.vv-foot{display:none}}
 
 /* 子页面：面包屑与站内导航（kit 2026-10-06） */
